@@ -1,0 +1,6 @@
+﻿id: PWJickubUU2dniqU63uDzw
+name: Example Category 1
+fields:
+  categoryName:
+    value: Category 1
+    type: ShortText

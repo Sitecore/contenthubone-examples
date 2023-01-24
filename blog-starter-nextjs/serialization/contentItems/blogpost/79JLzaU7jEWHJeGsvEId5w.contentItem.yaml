@@ -1,0 +1,277 @@
+﻿id: 79JLzaU7jEWHJeGsvEId5w
+name: Example Blogpost 3
+fields:
+  title:
+    value: Example Blogpost 3
+    type: ShortText
+  publishdate:
+    value: 2022-11-22T00:00:00.0000000+01:00
+    type: DateTime
+  abstract:
+    value: 'Num quid tale Democritus? Sed haec in pueris; Cur deinde Metrodori liberos commendas? Ne amores quidem sanctos a sapiente alienos esse arbitrantur. Est tamen ea secundum naturam multoque nos ad se expetendam magis hortatur quam superiora omnia. '
+    type: LongText
+  body:
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 1
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Eodem modo is enim tibi nemo dabit, quod, expetendum sit, id esse laudabile."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Si enim ad populum me vocas, eum. Quem Tiberina descensio festo illo die tanto gaudio affecit, quanto L. Possumusne ergo in vita summum bonum dicere, cum id ne in cena quidem posse videamur? Et quidem illud ipsum non nimium probo et tantum patior, philosophum loqui de cupiditatibus finiendis."
+              }
+            ]
+          },
+          {
+            "type": "bulletList",
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Quod dicit Epicurus etiam de voluptate, quae minime sint voluptates, eas obscurari saepe et obrui."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Tu autem inter haec tantam multitudinem hominum interiectam non vides nec laetantium nec dolentium?"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Nulla erit controversia."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Ego autem tibi, Piso, assentior usu hoc venire, ut acrius aliquanto et attentius de claris viris locorum admonitu cogitemus."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Num quid tale Democritus? "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "code"
+                  }
+                ],
+                "text": "Sed haec in pueris;"
+              },
+              {
+                "type": "text",
+                "text": " "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "bold"
+                  }
+                ],
+                "text": "Cur deinde Metrodori liberos commendas?"
+              },
+              {
+                "type": "text",
+                "text": " Ne amores quidem sanctos a sapiente alienos esse arbitrantur. Est tamen ea secundum naturam multoque nos ad se expetendam magis hortatur quam superiora omnia. Qui potest igitur habitare in beata vita summi mali metus? Quae quo sunt excelsiores, eo dant clariora indicia naturae. Et certamen honestum et disputatio splendida! omnis est enim de virtutis dignitate contentio. An vero displicuit ea, quae tributa est animi virtutibus tanta praestantia? Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit?"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Duo Reges: constructio interrete."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Sed finge non solum callidum eum, qui aliquid improbe faciat, verum etiam praepotentem, ut M. Quod iam a me expectare noli. "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "http://loripsum.net/",
+                      "target": "_blank",
+                      "class": null
+                    }
+                  }
+                ],
+                "text": "Minime vero, inquit ille, consentit."
+              },
+              {
+                "type": "text",
+                "text": " Dici enim nihil potest verius. Quae quo sunt excelsiores, eo dant clariora indicia naturae. Negat esse eam, inquit, propter se expetendam. Tollenda est atque extrahenda radicitus."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Quid Zeno? Tum Quintus: Est plane, Piso, ut dicis, inquit. Hic ambiguo ludimur. Hoc ipsum elegantius poni meliusque potuit. Quonam, inquit, modo? Incommoda autem et commoda-ita enim estmata et dustmata appello-communia esse voluerunt, paria noluerunt. Sint ista Graecorum; Si longus, levis."
+              }
+            ]
+          },
+          {
+            "type": "orderedList",
+            "attrs": {
+              "start": 1
+            },
+            "content": [
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Conclusum est enim contra Cyrenaicos satis acute, nihil ad Epicurum."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "listItem",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Est enim tanti philosophi tamque nobilis audacter sua decreta defendere."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "blockquote",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "Commentarios quosdam, inquam, Aristotelios, quos hic sciebam esse, veni ut auferrem, quos legerem, dum essem otiosus;"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "codeBlock",
+            "attrs": {
+              "language": null
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Nec hoc ille non vidit, sed verborum magnificentia est et\ngloria delectatus.\n\nEst tamen ea secundum naturam multoque nos ad se expetendam\nmagis hortatur quam superiora omnia.\n"
+              }
+            ]
+          }
+        ]
+      }
+    type: RichText
+  author:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "3fv_RPoCl0qrqZVMgBRUuQ",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/items/3fv_RPoCl0qrqZVMgBRUuQ"
+      }
+    type: Reference
+  categories:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "PWJickubUU2dniqU63uDzw",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/items/PWJickubUU2dniqU63uDzw"
+      }
+    type: Reference
+  coverImage:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Media",
+        "id": "rOfvb_Ix9kmeT7eRr4N5wg",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/media/rOfvb_Ix9kmeT7eRr4N5wg"
+      }
+    type: Media
