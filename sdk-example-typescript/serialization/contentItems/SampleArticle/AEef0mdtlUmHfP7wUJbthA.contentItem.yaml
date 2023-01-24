@@ -1,0 +1,360 @@
+﻿id: AEef0mdtlUmHfP7wUJbthA
+name: 'Headless CMS : Exactly what marketers need today (V2)'
+fields:
+  Title:
+    value: 'Headless CMS : Exactly what marketers need today (V2)'
+    type: ShortText
+  Summary:
+    value: The marketing benefits of a headless CMS in an increasingly omnichannel world.
+    type: LongText
+  Body:
+    value: >-
+      {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Customers want to experience uninterrupted interactions with brands — whether shopping, surfing, or asking questions — from wherever they are and on whichever device they happen to be using. If they put one device down and pick up another, they want the brand to recognize where they were previously so their journey can continue. "
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "This is the "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://www.sitecore.com/knowledge-center/digital-marketing-resources/omnichannel-marketing",
+                      "target": "_blank",
+                      "class": null
+                    }
+                  }
+                ],
+                "text": "seamless omnichannel experience"
+              },
+              {
+                "type": "text",
+                "text": " that customers crave today. But it can be a struggle for marketers to keep up with customers as they swap from one device to another and expand to new devices. One way that marketers can keep pace with the ever-growing number of customer touchpoints is to use a headless content management system (CMS), which enables content to flow to where customers interact. A headless CMS opens up the possibility of serving content and experiences to the latest, or most popular customer touchpoint."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Unfortunately, with legacy content management systems still dominating the global CMS market, many marketers struggle to meet today’s customer expectations. As expectations and digital behaviors continue to evolve, there’s never been a better time to investigate the flexibility of a headless CMS and the benefits it provides to digital marketers today."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Headless CMS vs. traditional CMS: What’s the difference?"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Traditional CMS platforms are built with desktop web browsers in mind. They help you construct web pages and e-commerce experiences that can be served through templates built for popular internet browsers like Google Chrome, Firefox, and Internet Explorer."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Which is fine, if that’s all you need to do. But consumers today expect personalized and consistent omnichannel experiences through various channels such as smart speakers, kiosks, event screens, and smart watches. This is where the “headless” element comes in."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "The presentation of your content is not dictated by a headless CMS. The front-end display — also known as the “head” — isn’t connected to your backend. Your content can be created once, stored centrally, and distributed to any device or touchpoint, without restrictions. This means marketers can be far more flexible while still maintaining data and analytics tracking — and personalization."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Six benefits of going headless"
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "1. Beat competitors to new channels"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Did you know that every second "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-internet-of-things-the-value-of-digitizing-the-physical-world",
+                      "target": "_blank",
+                      "class": null
+                    }
+                  }
+                ],
+                "text": "127 new devices"
+              },
+              {
+                "type": "text",
+                "text": " get connected to the internet? That’s a lot of places a customer might be hanging out. The explosion of "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://www.sitecore.com/resources/index/ebooks/headless-key-to-iot",
+                      "target": "_blank",
+                      "class": null
+                    }
+                  }
+                ],
+                "text": "IoT devices"
+              },
+              {
+                "type": "text",
+                "text": " has dramatically changed consumer behavior. A headless CMS enables marketers to push their content beyond web and mobile applications, to reach consumers on whichever exciting touchpoints come into existence."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "2. Prepare for the future — without trying"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "By using the same technology to connect with any device or touchpoint on the market today and tomorrow, a headless CMS removes concerns about the future. You’re always prepared to meet your customers on the new frontier of interaction, wherever that may be."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "3. Be consistent and avoid duplication"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "A headless CMS provides an environment where content can be repurposed and reused for any channel, or device. This removes the unnecessary duplication of content as well as helping to keep branding and messaging consistent across channels by breaking down channel silos that can disconnect marketing teams."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "4. Be faster to market"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "With a headless CMS, your content is created, edited, stored, previewed, and published in the same place. Content can be re-published across channels, in varying presentation styles, without the need to re-create any of it. This "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://www.sitecore.com/resources/index/ebooks/why-cms-architecture-matters",
+                      "target": "_blank",
+                      "class": null
+                    }
+                  }
+                ],
+                "text": "unified architecture"
+              },
+              {
+                "type": "text",
+                "text": " helps you evolve and iterate on campaigns at greater speed. The faster you are to market, the more time you put between you and your competitors, who are forced to catch up."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "5. Decrease barriers to innovation"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "With the eruption of new IoT devices and sensors, a headless content management system enables marketers to experiment and explore different initiatives. For example, energy firm "
+              },
+              {
+                "type": "text",
+                "marks": [
+                  {
+                    "type": "link",
+                    "attrs": {
+                      "href": "https://www.sitecore.com/customers/service/innogy",
+                      "target": "_blank",
+                      "class": null
+                    }
+                  }
+                ],
+                "text": "Innogy used Sitecore’s headless CMS"
+              },
+              {
+                "type": "text",
+                "text": " to connect IoT sensors to internal analytics systems and to customer-facing mobile apps to give their customers real-time gas meter readings, and personalized messaging."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 3
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "6. Embrace martech freedom"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "A headless CMS doesn’t just seamlessly connect with any device, it can also easily connect with any third-party tool or software on the market. Marketers can connect their favorite tools, from marketing automation tools to CRMs to conversion optimization technologies. Vendor lock-in becomes a thing of the past as you are free to explore best-of-breed technologies for each dimension of your marketing campaign."
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "attrs": {
+              "level": 2
+            },
+            "content": [
+              {
+                "type": "text",
+                "text": "Lose your head or risk losing customers"
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Consumers seem to have an endless thirst for new ways to interact online. As a result, their time is divided up into smaller chunks, meaning that brands who are putting all their efforts into desktop and mobile applications are at risk of missing out."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Investing in multiple technologies is one option, but now that the headless CMS secret is out, it’s fair to say that creating, storing, and publishing content in this flexible way is the best solution."
+              }
+            ]
+          }
+        ]
+      }
+    type: RichText
+  IsNews:
+    value: true
+    type: Boolean
+  IssueDate:
+    value: 2023-01-29T19:58:20.0000000+01:00
+    type: DateTime
+  IssueNo:
+    value: 13
+    type: Integer
+  RelatedArticles:
+    value:
+    - >-
+      {
+        "type": "Link",
+        "relatedType": "Content",
+        "id": "NV9N-_tFBUSUlZCokNa-fw",
+        "uri": "http://content-api-weu.sitecorecloud.io/api/content/v1/items/NV9N-_tFBUSUlZCokNa-fw"
+      }
+    type: Reference

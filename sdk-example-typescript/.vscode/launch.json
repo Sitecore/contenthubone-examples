@@ -1,0 +1,14 @@
+{
+    "configurations": [
+    
+        {
+            "name": "Launch Program",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/app.ts",
+            "outFiles": ["${workspaceFolder}/dist/**/*.js"],
+            "console": "integratedTerminal",
+            "preLaunchTask": "tsc: build - tsconfig.json"
+        }
+    ]
+}
