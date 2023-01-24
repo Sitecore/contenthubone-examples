@@ -1,0 +1,67 @@
+---
+import "../styles/global.css";
+import contenthuboneLogo from "/contenthubone.svg";
+import sitecoreLogo from "/sitecore.svg";
+import QuickLinks from "../components/quickLinks.astro";
+
+const ENDPOINT_URL = import.meta.env.PUBLIC_SITECORE_PREVIEW_ENDPOINT_URL;
+const API_KEY = import.meta.env.PUBLIC_PREVIEW_API_KEY;
+
+const query = `{ 
+        articles: allSampleArticle
+        {
+         results {
+            title
+            summary
+         }
+        }
+      }`;
+
+const results = await fetch(ENDPOINT_URL, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    "X-GQL-Token": API_KEY,
+  },
+  body: JSON.stringify({ query }),
+}).then((response) => response.json());
+
+const data = await results.data.articles.results[1];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="top">
+        <div>
+          <a href="https://developers.sitecore.com" target="_blank" rel="noopener noreferrer">
+            <img src={sitecoreLogo} alt="Sitecore Logo" width={222} height={30} />
+          </a>
+        </div>
+        <div class="right">
+          <a href="https://developers.sitecore.com" target="_blank" rel="noopener noreferrer">
+            <img src={contenthuboneLogo} alt="Sitecore Logo" width={222} height={30} />
+          </a>
+        </div>
+      </div>
+
+      <main>
+        <div class="center">
+          <h1>{data.title}</h1>
+          <p>{data.summary}</p>
+        </div>
+
+        <QuickLinks />
+      </main>
+
+      <footer></footer>
+    </div>
+  </body>
+</html>

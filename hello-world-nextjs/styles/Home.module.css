@@ -1,0 +1,123 @@
+
+.top {
+  display: flex;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  height: 64px;
+  align-items: center;
+  padding: 0 16px
+}
+
+.right {
+  margin-left: auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 80vh;
+}
+
+.main h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.main p {
+  font-size: 1.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25%, auto));
+  width: var(--max-width);
+  max-width: 100%;
+}
+
+.card {
+  padding: 1rem 1.2rem;
+  border-radius: 3px;
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid #e5e5e5;
+  transition: background 200ms, border 200ms;
+  margin: 0.5rem
+}
+
+.card h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 30ch;
+}
+
+.center {
+  position: relative;
+  padding: 10rem 0;
+  text-align: center;
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%), inset 0 0 200px rgb(255 255 255 / 30%);
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: #f6f6f629;
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+  
+  }
+
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .content {
+    padding: 4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .card {
+    padding: 1rem 2.5rem;
+    margin: 1rem;
+    border-color: #e5e5e5;
+  }
+
+  .card h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .center {
+    padding: 8rem 0 6rem;
+  }
+
+  .center::before {
+    transform: none;
+    height: 300px;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}

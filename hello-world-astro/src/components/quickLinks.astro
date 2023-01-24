@@ -1,0 +1,124 @@
+---
+---
+
+<div class="grid">
+  <a
+    href="https://doc.sitecore.com/ch-one/en/users/content-hub-one/working-with-content-hub-one.html"
+    class="card"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <h2>
+      End User Docs <span>-&gt;</span>
+    </h2>
+    <p>Find information on how to work with Content Hub ONE.</p>
+  </a>
+
+  <a
+    href="https://doc.sitecore.com/ch-one/en/developers/content-hub-one/content-hub-one-sdk.html"
+    class="card"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <h2>
+      SDK <span>-&gt;</span>
+    </h2>
+    <p>The Content Hub ONE client SDK provides a unified set of APIs and tools that let you develop apps.</p>
+  </a>
+
+  <a
+    href="https://doc.sitecore.com/ch-one/en/developers/content-hub-one/content-hub-one-cli.html"
+    class="card"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <h2>
+      CLI <span>-&gt;</span>
+    </h2>
+    <p>Manage content and media with the CLI</p>
+  </a>
+
+  <a
+    href="https://doc.sitecore.com/ch-one/en/developers/content-hub-one/graphql--preview-and-delivery-apis.html"
+    class="card"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <h2>
+      APIs <span>-&gt;</span>
+    </h2>
+    <p>Use GraphQL to query your Content Hub ONE endpoint.</p>
+  </a>
+</div>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(25%, auto));
+    width: var(--max-width);
+    max-width: 100%;
+  }
+
+  .card {
+    padding: 1rem 1.2rem;
+    border-radius: 3px;
+    background: rgba(var(--card-rgb), 0);
+    border: 1px solid #e5e5e5;
+    transition: background 200ms, border 200ms;
+    margin: 0.5rem;
+  }
+
+  .card h2 {
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+  }
+
+  .card p {
+    margin: 0;
+    opacity: 0.6;
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 30ch;
+  }
+
+  /* Enable hover only on non-touch devices */
+  @media (hover: hover) and (pointer: fine) {
+    .card:hover {
+      box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%), inset 0 0 200px rgb(255 255 255 / 30%);
+      border-radius: 5px;
+      position: relative;
+      z-index: 1;
+      background: #f6f6f629;
+      overflow: hidden;
+      -webkit-backdrop-filter: blur(24px);
+      backdrop-filter: blur(24px);
+    }
+  }
+
+  /* Mobile */
+  @media (max-width: 700px) {
+    .grid {
+      grid-template-columns: 1fr;
+      margin-bottom: 120px;
+      max-width: 320px;
+      text-align: center;
+    }
+
+    .card {
+      padding: 1rem 2.5rem;
+      margin: 1rem;
+      border-color: #e5e5e5;
+    }
+
+    .card h2 {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  /* Tablet and Smaller Desktop */
+  @media (min-width: 701px) and (max-width: 1120px) {
+    .grid {
+      grid-template-columns: repeat(2, 50%);
+    }
+  }
+</style>
