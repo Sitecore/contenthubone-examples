@@ -1,4 +1,3 @@
-![Content Hub ONE logo](https://sitecorecontenthub.stylelabs.cloud/api/public/content/91c3d57209b042ff9aacfee56125ef0e)
 # Content Hub One examples 
 This repository contains various examples using Content Hub One.
 
