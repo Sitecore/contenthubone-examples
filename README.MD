@@ -57,7 +57,7 @@ The first two id's can be retrieved from the 'user account menu' at the top righ
 
 ![Organization and tenant information](./.github/organization-tenant-ids.png)
 
-The client id and client secret can be found using the man navigation. Under the settings option you find the OAuth client menu option.
+The client id and client secret can be found using the main navigation. Under the settings option you find the OAuth client menu option.
 
 ![Client credentials](./.github/client-credentials.png)
 
