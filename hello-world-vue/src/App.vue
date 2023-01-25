@@ -44,7 +44,7 @@ const API_KEY = import.meta.env.VITE_PREVIEW_API_KEY;
       }
     },
     mounted() {
-      this.getData()
+      this.fetchData()
     }
   }
  
