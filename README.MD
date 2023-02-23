@@ -1,4 +1,4 @@
-# Content Hub One examples 
+# Content Hub ONE examples 
 This repository contains various examples using Content Hub One.
 
 ## Hello World examples :wave:
